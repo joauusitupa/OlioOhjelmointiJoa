@@ -13,7 +13,7 @@ function drawRectangle () {
 }
 
 
-const rectangle = {
+const rectangle: { width: number; height: number; x: number; y: number; style: string; draw: () => void } = {
     width: 400,
     height: 200,
     x: xCenter - 200,
@@ -24,18 +24,18 @@ const rectangle = {
 rectangle.draw()
 
 
-const rectangle2 = {
+const rectangle2: { width: number; height: number; x: number; y: number; style: string; draw: () => void } = {
     width: 200,
     height: 100,
     x: xCenter - 50,
-    y: yCenter - 25,
+    y: yCenter - 25,         
     style: "green",
     draw: drawRectangle
 }
 rectangle2.draw()
 
 
-const rectangle3 = {
+const rectangle3: { width: number; height: number; x: number; y: number; style: string; draw: () => void } = {
     width: 50,
     height: 100,
     x: xCenter + 100,
@@ -46,7 +46,7 @@ const rectangle3 = {
 rectangle3.draw()
 
 
-const circle = {
+const circle: { radius: number; x: number; y: number; style: string; draw: () => void } = {
     x: 150,
     y: 150,
     radius: 100,

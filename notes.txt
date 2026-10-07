@@ -1,1 +1,3 @@
 Git Bash -komento: tsc
+
+Seuraava tehtävä: 2.2 | 7.10.26.
